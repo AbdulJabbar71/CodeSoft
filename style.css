@@ -1,0 +1,38 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    
+}
+.container {
+    margin: 50px  auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: max-content;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.button{
+    width: 66px;
+    padding: 20px;
+    margin: 1px 3px;
+    border: 1px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    
+}
+.row{
+    margin: 2px 8px;
+}
+.row input{
+    font-size:23px ;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin:0px;
+}
+
+.button:hover{
+    background-color:rgba(255, 235, 205, 0.208) ;
+    transition: 0.3s ease-in;
+    box-shadow:;
+}
